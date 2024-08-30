@@ -1,0 +1,154 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('image/backgroundFeedback.jpg'); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    filter: blur(8px); /* ทำให้ภาพเบลอ */
+    z-index: -1; /* วางภาพพื้นหลังไว้ด้านล่างของเนื้อหา */
+}
+
+.feedback-container {
+    background-color: #00000094;
+    padding: 20px;
+    border-radius: 20px;
+    width: 35vw;
+    max-height: fit-content;
+    
+    
+}
+
+.feedback-container h2 {
+    margin-bottom: 10px;
+    font-size: 1.2vw;
+    color: #f8f2f2;
+    
+}
+
+
+ .inputName{
+    width: 50%;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    font-size: 1vw;
+    box-shadow: inset 0px 1px 3px rgba(0, 0, 0, 0.12);
+    max-height: fit-content; 
+    resize: none;
+} 
+
+ .inputComment{
+    width: 100%;
+    border: none;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    font-size: 1vw;
+    box-shadow: inset 0px 1px 3px rgba(0, 0, 0, 0.12);
+    max-height: 100%; 
+    resize: none;
+} 
+
+
+.feedback-container input[type="submit"] {
+    width: 25%;
+    padding: 10px;
+    background-color: #7ed957;
+    border: none;
+    border-radius: 20px;
+    font-size: 1vw;
+    color: #000;
+    cursor: pointer;
+}
+
+.feedback-container input[type="submit"]:hover {
+    background-color: #6bc94d;
+}
+
+
+
+.feed-con{
+    width: 100%;
+    height: 100%;
+    margin: 2rem;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    
+
+    display:flex ;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+
+
+/*-----------------Thx Section --------------
+.modal{
+    width: 100%;
+    height: 100%;
+    background:rgba(0, 0, 0, 0.5);
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+.modal-page{
+    width: 30vw;
+    height: 25vw;
+    background: #f8f2f2;
+}
+*/
+.modal{
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal-page{
+    width: 30vw;
+    padding: 20px;
+    background: #f8f2f2;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.modal-page h2 {
+    margin-bottom: 10px;
+    font-size: 1.2vw;
+    color: #333;
+}
+
+.modal-page p {
+    margin-bottom: 20px;
+    font-size: 1vw;
+    color: #666;
+}
+
+.modal-page button {
+    padding: 10px 20px;
+    font-size: 1vw;
+    background-color: #7ed957;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.modal-page button:hover {
+    background-color: #6bc94d;
+}

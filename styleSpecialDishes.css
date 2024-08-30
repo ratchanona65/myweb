@@ -1,0 +1,25 @@
+
+.dishes img{
+    width: 18vw;
+    height: 18vw;
+    border-radius:15%;
+    box-shadow: 0 15px 25px rgba(3, 3, 3, 0.2);
+}
+.dishes{
+    display: flex;
+    column-gap: 50px;
+    margin: 3rem;
+    
+}
+.dis-con{
+    justify-content: center;
+    margin: 3rem;
+}
+
+.special-con h1{
+    margin: 3rem;
+}
+.dishesContent p{
+    font-size: 1vw;
+    margin: 1rem;
+}

@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header h1{
+    text-align: center;
+    background-color: rgba(87, 90, 88, 0.527);
+    margin: 2rem;
+    border-radius: 3px;
+}
+.menusButton{
+    display: flex;
+    
+    gap: 5px;
+}
+.btn{
+    border-width: thin;
+    border-color: rgb(83, 83, 83);
+    border-radius: 10px;
+    width: 5vw;
+    height: 2vw;
+    transition: 0.3s;
+    cursor: pointer;
+    font-size: 1vw;
+}
+.btn:hover{
+    border-width: thin;
+    border-color: rgb(83, 83, 83);
+    border-radius: 12px;
+    width: 5vw;
+    height: 2vw;
+    background-color: rgba(218, 216, 216, 0.726);
+    
+}
+.barMenu-Search{
+    display: flex;
+    gap: 20px;
+    padding-left: 2%;
+    margin-bottom: 2rem;
+    
+    
+}
+.searchBox{
+    width: 250px;
+    height: 30px;
+    border-radius: 5px;
+    border: none;
+    width: 15vw;
+    height: 2vw;
+    font-size: 1vw;
+}
+.btn-submit{
+    
+    border-width: thin;
+    border-color: rgb(83, 83, 83);
+    border-radius: 10px;
+    width: 5vw;
+    height: 2vw;
+    transition: 0.3s;
+    cursor: pointer;
+    font-size: 1vw;
+}
+.btn-submit:hover{
+    border-width: thin;
+    border-color: rgb(83, 83, 83);
+    border-radius: 12px;
+    width: 5vw;
+    height: 2vw;
+    transition: 0.3s;
+    cursor: pointer;
+    background-color: rgba(218, 216, 216, 0.726);
+}
+
+.menu-item{
+    width: 250;
+    height: 250;
+    
+    margin-bottom: 2rem !important;
+    
+    
+}
+.menu-con{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    
+    margin-top: 20px;
+    justify-content: center;
+    padding-left: 30px;
+
+    margin-bottom: 2rem;
+}
+
+
+
+.menu-con img{   /* ปรับขนาดรูปใน  Menu*/
+    width: 15vw;
+    height: 15vw; 
+    border-radius: 10px;
+    box-shadow: 0 15px 25px rgba(3, 3, 3, 0.2);
+    
+}
+

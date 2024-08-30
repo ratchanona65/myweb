@@ -1,0 +1,182 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(241, 239, 239);
+    font-family: "Noto Sans Thai", sans-serif;
+    font-size: 1vw;
+    
+
+    
+}
+
+
+
+
+.contrainer{
+    width: 80%;
+    margin: auto;
+    flex-wrap: wrap;
+}
+nav{
+    padding: 0rem;
+    background-color: rgb(10, 10, 10);
+ 
+    
+}
+
+.nav-con{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.logo img{
+    object-fit: contain;
+    width: 7vw;
+    
+}
+
+.menu{
+    display: flex;
+    list-style: none;
+    align-items: center;
+    
+}
+.menu li{
+    margin: 2rem;
+}
+.menu a{
+    color: rgb(250, 250, 250);
+    text-decoration: none;
+
+}
+
+
+
+
+
+
+.hero-con{
+    padding: 1rem;
+    display: flex;
+}
+.hero-con h1{
+    margin: 1rem 0;
+}
+
+.hero-con2{
+    display: block;
+    padding: 1vw;
+}
+.hero-con2 p{
+    padding: 1rem;
+    font-size: 1vw;
+    
+}
+.hero-con img{
+    width: 40vw;
+    height: 40vw;
+}
+
+
+.promotion{
+    text-align: center; /* จัดให้ข้อความอยู่กึ่งกลางใต้ภาพ */
+    margin: 10px; /* เพิ่มระยะห่างรอบๆ แต่ละ `div` */
+}
+
+.promotion img{
+    width: 250px; /* ปรับขนาดของภาพตามต้องการ */
+    height: 250px; /* รักษาอัตราส่วนของภาพ */
+}
+
+.promotion p{
+    margin-top: 5px; /* เพิ่มระยะห่างระหว่างภาพกับข้อความ */
+    font-size: 14px; /* ขนาดตัวอักษรของข้อความใต้ภาพ */
+    color: #333; /* สีของข้อความ */
+}
+.promotion-contrainer{
+    display: flex;
+    gap: 20px; /* ปรับระยะห่างระหว่างภาพ */
+     /* จัดเรียงให้ห่างกัน */
+    /*flex-wrap: wrap;*/
+}
+
+
+
+.blog{
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 0.8vw;
+}
+.blog-contact h1{
+    margin: 2rem;
+    margin-bottom: 1rem;
+}
+
+.blog-contact p{
+    margin: 1rem;
+    
+}
+.blog-contrainer{
+    display: flex;
+    
+    justify-content: space-between;
+    /* column-gap: 20rem; */
+    margin-bottom: 3cap;
+    
+    
+   
+}
+.blog-timeNday{
+    display: flex;
+    column-gap: 2rem;
+}
+.blog-opentime h1{
+    margin: 2rem;
+    margin-bottom: 1rem;
+}
+
+.blog-map h1{
+    margin: 2rem;
+    margin-bottom: 1rem;
+
+}
+.blog-map iframe{
+    border-radius: 5%;
+    border:0; width: 9vw; height: 9vw;
+    margin-left: 1vw;
+
+}
+.blog{
+    margin-top: 2rem;
+}
+
+.menu li a {
+    text-decoration: none;
+    position: relative;
+    display: inline-block;
+    padding-bottom: 5px;
+}
+
+.menu li a:after {
+    content: '';
+    position: absolute;
+    width: 5%;
+    height: 2px;
+    display: block;
+    background: #f8f7f7; /* สีเส้นใต้ */
+    transition: width .3s;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%);
+    opacity: 0;
+}
+
+.menu li a:hover:after {
+    width: 90%;
+    opacity: 1;
+    /* เส้นใต้จะปรากฏเมื่อ hover */
+}

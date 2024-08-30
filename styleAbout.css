@@ -1,0 +1,35 @@
+body{
+    background-color: rgb(241, 239, 239);
+    font-family: "Noto Sans Thai", sans-serif;
+    
+}
+.about-con h1{
+    margin: 3rem;
+}
+
+
+.about1-con{
+    display:flex ;
+    column-gap: 10rem;
+    justify-content: center;
+    text-align: center;
+    margin: 1rem;
+    font-size: 20px
+}
+.about1-con img{
+    margin: 1rem;
+    
+
+
+}
+.about2-con{
+    display:flex ;
+    column-gap: 0rem;
+    justify-content: center;
+    text-align: center;
+    margin: 1rem;
+    font-size: 20px
+}
+.about2-content p{
+    margin: 8rem;
+}
