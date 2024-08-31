@@ -5,12 +5,13 @@ body{
 }
 .about-con h1{
     margin: 3rem;
+    
 }
 
 
 .about1-con{
     display:flex ;
-    column-gap: 10rem;
+    
     justify-content: center;
     text-align: center;
     margin: 1rem;
@@ -18,10 +19,30 @@ body{
 }
 .about1-con img{
     margin: 1rem;
-    
+    max-width: 30vw;
+    max-height: 25vw;
+    box-shadow: 10px 10px 5px #888888;
+
+}
+.about1-con p{
+    margin: 8rem;
+    font-size: 1vw;
+}
+
+
+
+
+
+.about2-con img{
+    margin: 1rem;
+    max-width: 25vw;
+    max-height: 30vw;
+    box-shadow: 10px 10px 5px #888888;
 
 
 }
+
+
 .about2-con{
     display:flex ;
     column-gap: 0rem;
@@ -32,4 +53,6 @@ body{
 }
 .about2-content p{
     margin: 8rem;
+    font-size: 1vw;
 }
+

@@ -1,0 +1,192 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+.background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('image/backgroundFeedback.jpg'); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    filter: blur(8px); /* ทำให้ภาพเบลอ */
+    z-index: -1; /* วางภาพพื้นหลังไว้ด้านล่างของเนื้อหา */
+}
+.team-con{
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 100%;
+    border-radius: 15px;
+    margin-top: 1rem;
+}
+.owner{
+    /* background-color: pink; พื้นหลังสีชมพู */
+    display: flex;
+    flex-direction: column; /* จัดเรียงในแนวตั้ง */
+    justify-content: center; /* จัดให้อยู่ตรงกลางในแนวตั้ง */
+    align-items: center; /* จัดให้อยู่ตรงกลางในแนวนอน */
+    height: fit-content; /* หรือความสูงที่คุณต้องการ */
+    
+
+    
+
+
+}
+.owner img {
+    max-width: 30vw; /* กำหนดความกว้างของรูปภาพ */
+    max-height: 35vw; /* กำหนดความสูงของรูปภาพ */
+    border-radius: 10px; /* ทำมุมโค้งให้รูปภาพ */
+    box-shadow: 10px 10px 5px #0f0f0f85;
+}
+
+.owner h2 {
+    margin-top: 1rem; /* ระยะห่างด้านบน */
+    margin-bottom: 0rem;
+    font-weight: bold; /* ตัวหนา */
+    color: #ffffff;
+}
+
+.owner p {
+    margin-top: 1rem; /* ระยะห่างระหว่างชื่อและคำอธิบาย */
+    color: #ffffff; /* สีของข้อความ */
+    font-size: 1.2vw;
+}
+
+/*-----------------------------*/
+
+.chef {
+    /* background-color: purple; พื้นหลังสีม่วง */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.chef h2 {
+    margin-bottom: 20px; /* ระยะห่างระหว่างหัวข้อและรูปภาพ */
+    font-weight: bold;
+    color: white; /* สีของข้อความ */
+}
+.chef p{
+    font-size: 1.2vw;
+}
+.personal-box {
+    display: flex;
+    justify-content: center; /* จัดให้อยู่ตรงกลางในแนวนอน */
+    gap: 20px; /* ระยะห่างระหว่างรูปภาพ */
+}
+
+.personal-box .personal {
+    text-align: center;
+}
+
+.personal-box img {
+    width:15vw ;
+    height: 15vw;
+    border-radius: 20px; /* ทำมุมโค้งให้รูปภาพ */
+}
+
+.personal-box p {
+    margin-top: 10px;
+    color: #ffffff;
+}
+.personal{
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.5s ease-out, transform 1s ease-out;
+}
+.personal.show {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+
+
+/*-------------------------*/
+.employee {
+    /* background-color: rgb(111, 206, 135); พื้นหลังสีม่วง */
+    display: flex;
+    flex-direction: column ;
+    align-items: center;
+    padding: 20px;
+    margin-bottom: 0rem;
+}
+
+.employee h2 {
+    margin-bottom: 20px; /* ระยะห่างระหว่างหัวข้อและรูปภาพ */
+    font-weight: bold;
+    color: white; /* สีของข้อความ */
+    
+}
+
+.employee-box {
+    display: flex;
+    flex-wrap: wrap; /* อนุญาตให้ห่อเป็นบรรทัดใหม่ */
+    justify-content: center; /* จัดให้อยู่ตรงกลาง */
+    gap: 20px; /* ระยะห่างระหว่างไอเทม */
+}
+
+.employee-box .emp-item {
+    text-align: center;
+}
+
+.employee-box img {
+    width:15vw ;
+    height: 15vw;
+    border-radius: 20px; /* ทำมุมโค้งให้รูปภาพ */
+}
+
+.employee-box p {
+    margin-top: 10px;
+    color: #ffffff;
+    margin-bottom: 1rem;
+}
+.emp-item{
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.5s ease-out, transform 1s ease-out;
+}
+.emp-item.show{
+    opacity: 1;
+    transform: translateY(0);
+}
+
+
+.ownerheadBar h2{
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.829);
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    border-radius: 5px;
+    width: 100%;
+}
+.ownerheadBar{
+    width: 15%;
+}
+
+.chefheadBar h2{
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.829);
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+    border-radius: 5px;
+    width: 100%;
+}
+.chefheadBar{
+    width: 20%;
+}
+
+.employeeheadBar h2{
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.829);
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+    border-radius: 5px;
+    width: 100%;
+}
+.employeeheadBar{
+    width: 30%;
+}
