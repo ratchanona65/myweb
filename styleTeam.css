@@ -121,6 +121,9 @@
     color: white; /* สีของข้อความ */
     
 }
+.emp-item p{
+    font-size: 1vw; 
+}
 
 .employee-box {
     display: flex;

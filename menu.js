@@ -10,7 +10,7 @@ var product = [
     {
         id: 2,
         img: "image/allMenu/Food/salmon.png",
-        name: "salmoFuttucini",
+        name: "Salmon Fettucini",
         price: 99,
         type: "Food",
     },
@@ -38,14 +38,14 @@ var product = [
     },
     {
         id: 6,
-        img: "image/allMenu/Food/thaibanSet.png",
-        name: "ThaibanSet",
-        price: 199,
+        img: "image/allMenu/Food/Ham.png",
+        name: "Hamburger",
+        price: 39,
         type: "Food",
     },
     {
         id: 7,
-        img: "image/allMenu/Drink/greenTea.png",
+        img: "image/allMenu/Drink/greentea.png",
         name: "Green Tea",
         price: 29,
         type: "Drink",
@@ -63,6 +63,19 @@ var product = [
         name: "Donat",
         price: 19,
         type: "Dessert",
+    },{
+        id: 10,
+        img: "image/allMenu/Drink/coco.png",
+        name: "Coco",
+        price: 29,
+        type: "Drink",
+    },
+    {
+        id: 11,
+        img: "image/allMenu/Drink/chaThai.png",
+        name: "Thai Tea",
+        price: 29,
+        type: "Drink",
     },
     
 ]
